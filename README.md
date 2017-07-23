@@ -1,25 +1,9 @@
-# README
+##React on Rails example project: vacation planner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project uses the [ReactonRails|https://github.com/shakacode/react_on_rails] approach, which have been standardized in the Rails 5.1 [Rails 5.1|http://edgeguides.rubyonrails.org/5_1_release_notes.html].
 
-Things you may want to cover:
+Start the application via the following commands:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# react_on_rails_sample
+1. ```bundle && yarn```
+2. ```rake db:setup```
+3. ```foreman start -f Procfile.dev```
