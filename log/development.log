@@ -1,0 +1,444 @@
+Started GET "/" for 127.0.0.1 at 2017-07-14 14:32:44 +0200
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.4) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.4) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.3ms)
+Started GET "/" for 127.0.0.1 at 2017-07-14 14:32:48 +0200
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.4) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.4) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.9ms)
+  [1m[35m (10.5ms)[0m  [1m[35mCREATE TABLE "employees" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "name" varchar, "department" varchar, "avd" integer, "tvd" integer, "supervisor_id" integer)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_employees_on_email" ON "employees" ("email")[0m
+  [1m[35m (0.3ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_employees_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_employees_on_email' AND type='index'
+[0m
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_employees_on_reset_password_token" ON "employees" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_employees_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_employees_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_employees_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_employees_on_email' AND type='index'
+[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE  INDEX "index_employees_on_supervisor_id" ON "employees" ("supervisor_id")[0m
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE TABLE "requests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "status" integer, "start_date" date, "end_date" date, "employee_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (9.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (6.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170710162811)[0m
+  [1m[35m (6.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20170710120023),
+(20170710120145);
+
+[0m
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-14 12:33:01.889182"], ["updated_at", "2017-07-14 12:33:01.889182"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "employees" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "name" varchar, "department" varchar, "avd" integer, "tvd" integer, "supervisor_id" integer)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_employees_on_email" ON "employees" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_employees_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_employees_on_email' AND type='index'
+[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_employees_on_reset_password_token" ON "employees" ("reset_password_token")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_employees_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_employees_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_employees_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_employees_on_email' AND type='index'
+[0m
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE  INDEX "index_employees_on_supervisor_id" ON "employees" ("supervisor_id")[0m
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE TABLE "requests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "status" integer, "start_date" date, "end_date" date, "employee_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (4.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170710162811)[0m
+  [1m[35m (3.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20170710120023),
+(20170710120145);
+
+[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-14 12:33:01.976798"], ["updated_at", "2017-07-14 12:33:01.976798"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "supervisor@vacationplaner0.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "supervisor@vacationplaner0.de"], ["encrypted_password", "$2a$11$cHDpxl/pwEL7n8ag9n8GX.u5qrZ..hnZde9ZpBbLQs7KhUOey/yPm"], ["created_at", "2017-07-14 12:33:02.158259"], ["updated_at", "2017-07-14 12:33:02.158259"], ["name", "Supervisor 0"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "supervisor@vacationplaner1.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "supervisor@vacationplaner1.de"], ["encrypted_password", "$2a$11$TOhQIfxmpfRd9gCaRQAIuexUSmyEF3LrREJEACjekka6AOY5sdQ6O"], ["created_at", "2017-07-14 12:33:02.293906"], ["updated_at", "2017-07-14 12:33:02.293906"], ["name", "Supervisor 1"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "supervisor@vacationplaner2.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "supervisor@vacationplaner2.de"], ["encrypted_password", "$2a$11$I7b6QEP9CCOgEHcNtMCSdOhhdAnCwvlDWFt4RpLnewHzoFwhCd6Xq"], ["created_at", "2017-07-14 12:33:02.434737"], ["updated_at", "2017-07-14 12:33:02.434737"], ["name", "Supervisor 2"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.2ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example0.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example0.de"], ["encrypted_password", "$2a$11$VzzIMyLEXVi7FbGNAnJQFO/RQEiMqD2YMhS2Q0TMGVyy7ygXsi2ku"], ["created_at", "2017-07-14 12:33:02.581337"], ["updated_at", "2017-07-14 12:33:02.581337"], ["name", "Subordinate 0"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example1.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example1.de"], ["encrypted_password", "$2a$11$eClpgIaINA5uwdPfWHTvKeZkPOSkD.Z.cmwSgtVzGFhSlfZ.hYxqC"], ["created_at", "2017-07-14 12:33:02.721310"], ["updated_at", "2017-07-14 12:33:02.721310"], ["name", "Subordinate 1"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example2.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example2.de"], ["encrypted_password", "$2a$11$D853TCzM5HO/idv3hiIWZeNF.apmytwKJcb9tddaYWvduT690HLY."], ["created_at", "2017-07-14 12:33:02.856838"], ["updated_at", "2017-07-14 12:33:02.856838"], ["name", "Subordinate 2"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example3.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example3.de"], ["encrypted_password", "$2a$11$fz9i80yztUSL4NtpeA3b2urCQXp9o4adLOyavgeDEOQsRz/OTqwcC"], ["created_at", "2017-07-14 12:33:02.994313"], ["updated_at", "2017-07-14 12:33:02.994313"], ["name", "Subordinate 3"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example4.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example4.de"], ["encrypted_password", "$2a$11$RhUfw6gfFvBy/aSAY2Dc.OaIbCU6OOnfgCBOjM5V1ZLyQnF4T7rli"], ["created_at", "2017-07-14 12:33:03.135748"], ["updated_at", "2017-07-14 12:33:03.135748"], ["name", "Subordinate 4"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example5.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example5.de"], ["encrypted_password", "$2a$11$87yVvNxkfSWhtaUlrafmP.WH57cTA.03cvoobLdZk2fkeu0EYokg2"], ["created_at", "2017-07-14 12:33:03.270648"], ["updated_at", "2017-07-14 12:33:03.270648"], ["name", "Subordinate 5"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example6.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example6.de"], ["encrypted_password", "$2a$11$TZvty0ALADFZULx3Wju3eOoJgqJHC3XNdbtPvwCOLds4wm7CFRad2"], ["created_at", "2017-07-14 12:33:03.412774"], ["updated_at", "2017-07-14 12:33:03.412774"], ["name", "Subordinate 6"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example7.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example7.de"], ["encrypted_password", "$2a$11$cX6nUSrmwUz4PQnrumQd9ur28vkdiRoyyMYAjBP7fs8SlL8BDvHAG"], ["created_at", "2017-07-14 12:33:03.553247"], ["updated_at", "2017-07-14 12:33:03.553247"], ["name", "Subordinate 7"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example8.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example8.de"], ["encrypted_password", "$2a$11$iPjOoyNei.bi3ywgH/yBzup576iAgvyUiIZWY8gtKJbqPBlj.8ji2"], ["created_at", "2017-07-14 12:33:03.689776"], ["updated_at", "2017-07-14 12:33:03.689776"], ["name", "Subordinate 8"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example9.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example9.de"], ["encrypted_password", "$2a$11$Fgw9KElq9bc1eNKNuWyw3OIPEBswx5iWLlg/dPN2OSvtomJ5yRSDe"], ["created_at", "2017-07-14 12:33:03.830865"], ["updated_at", "2017-07-14 12:33:03.830865"], ["name", "Subordinate 9"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example10.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example10.de"], ["encrypted_password", "$2a$11$IAkHwS1GEwbsn84wL.4Ml.EkD7ohHIPsVmJ5dXBojp7.tCL0Vjuk6"], ["created_at", "2017-07-14 12:33:03.968483"], ["updated_at", "2017-07-14 12:33:03.968483"], ["name", "Subordinate 10"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.2ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example11.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example11.de"], ["encrypted_password", "$2a$11$qY8rTJ/7fTznHliV5hdwtuPmzKcm4mWFdiIAQYz7fgAArXFcDZejm"], ["created_at", "2017-07-14 12:33:04.112382"], ["updated_at", "2017-07-14 12:33:04.112382"], ["name", "Subordinate 11"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (12.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example12.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example12.de"], ["encrypted_password", "$2a$11$DQOF4ov60lyOqTRQn9ln4eUaDcaCsvToAlodhOGUZN/WiLF.XxDXa"], ["created_at", "2017-07-14 12:33:04.259415"], ["updated_at", "2017-07-14 12:33:04.259415"], ["name", "Subordinate 12"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example13.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example13.de"], ["encrypted_password", "$2a$11$1/vW0yNeoXYzTwD8UPvO.uzaDd2jOi.u33TrNXiBRuwHwcfTI.oHO"], ["created_at", "2017-07-14 12:33:04.405464"], ["updated_at", "2017-07-14 12:33:04.405464"], ["name", "Subordinate 13"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example14.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example14.de"], ["encrypted_password", "$2a$11$7GdJjn.0Kz/MhWaXm3ZlfO/y4GZiX.1Bm7ADYoRCTYb7cn56w5w8G"], ["created_at", "2017-07-14 12:33:04.552746"], ["updated_at", "2017-07-14 12:33:04.552746"], ["name", "Subordinate 14"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (75.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example15.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example15.de"], ["encrypted_password", "$2a$11$PZLAoMFYZ5ZzKtZ1eRmDrOo33DNro4uUpXvwXCYzl/ZNEnvfWaM5i"], ["created_at", "2017-07-14 12:33:04.761922"], ["updated_at", "2017-07-14 12:33:04.761922"], ["name", "Subordinate 15"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (52.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example16.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example16.de"], ["encrypted_password", "$2a$11$TzsPl/A0fND.SyNN1VccteCTgX1NNJvhd1lcwRIxi9toTqrMLj3IW"], ["created_at", "2017-07-14 12:33:04.952706"], ["updated_at", "2017-07-14 12:33:04.952706"], ["name", "Subordinate 16"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example17.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example17.de"], ["encrypted_password", "$2a$11$zyF/sjyDfiUEe2rB11ck0OTLQW66L9WA5vqgSPilOg9Dffin3OruG"], ["created_at", "2017-07-14 12:33:05.090707"], ["updated_at", "2017-07-14 12:33:05.090707"], ["name", "Subordinate 17"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example18.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example18.de"], ["encrypted_password", "$2a$11$kz.QSf3Bjs9UzPreUh3ZDe2MFe9z/y.g9IzcxUof5st9beJ2X1v5K"], ["created_at", "2017-07-14 12:33:05.230187"], ["updated_at", "2017-07-14 12:33:05.230187"], ["name", "Subordinate 18"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmployee Load (0.1ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" ORDER BY "employees"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmployee Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "employees" WHERE "employees"."email" = ? LIMIT ?[0m  [["email", "test@example19.de"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "employees" ("email", "encrypted_password", "created_at", "updated_at", "name", "avd", "tvd", "supervisor_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "test@example19.de"], ["encrypted_password", "$2a$11$IAIvFawbbd.q9a3WRZYpM.kwfhd.WBnHCE3eJweOSCZ1D8rzfhTAC"], ["created_at", "2017-07-14 12:33:05.373862"], ["updated_at", "2017-07-14 12:33:05.373862"], ["name", "Subordinate 19"], ["avd", 20], ["tvd", 10], ["supervisor_id", 1]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 18], ["created_at", "2017-07-14 12:33:05.391694"], ["updated_at", "2017-07-14 12:33:05.391694"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 10], ["created_at", "2017-07-14 12:33:05.400424"], ["updated_at", "2017-07-14 12:33:05.400424"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 1], ["created_at", "2017-07-14 12:33:05.411674"], ["updated_at", "2017-07-14 12:33:05.411674"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 9], ["created_at", "2017-07-14 12:33:05.420722"], ["updated_at", "2017-07-14 12:33:05.420722"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 19], ["created_at", "2017-07-14 12:33:05.428340"], ["updated_at", "2017-07-14 12:33:05.428340"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 11], ["created_at", "2017-07-14 12:33:05.433528"], ["updated_at", "2017-07-14 12:33:05.433528"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 19], ["created_at", "2017-07-14 12:33:05.440260"], ["updated_at", "2017-07-14 12:33:05.440260"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 13], ["created_at", "2017-07-14 12:33:05.445610"], ["updated_at", "2017-07-14 12:33:05.445610"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 18], ["created_at", "2017-07-14 12:33:05.458612"], ["updated_at", "2017-07-14 12:33:05.458612"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 18], ["created_at", "2017-07-14 12:33:05.467041"], ["updated_at", "2017-07-14 12:33:05.467041"]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 19], ["created_at", "2017-07-14 12:33:05.478676"], ["updated_at", "2017-07-14 12:33:05.478676"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 6], ["created_at", "2017-07-14 12:33:05.489762"], ["updated_at", "2017-07-14 12:33:05.489762"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 15], ["created_at", "2017-07-14 12:33:05.498415"], ["updated_at", "2017-07-14 12:33:05.498415"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 5], ["created_at", "2017-07-14 12:33:05.505860"], ["updated_at", "2017-07-14 12:33:05.505860"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 7], ["created_at", "2017-07-14 12:33:05.512923"], ["updated_at", "2017-07-14 12:33:05.512923"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 2], ["created_at", "2017-07-14 12:33:05.520735"], ["updated_at", "2017-07-14 12:33:05.520735"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 3], ["created_at", "2017-07-14 12:33:05.527416"], ["updated_at", "2017-07-14 12:33:05.527416"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 10], ["created_at", "2017-07-14 12:33:05.538083"], ["updated_at", "2017-07-14 12:33:05.538083"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 7], ["created_at", "2017-07-14 12:33:05.548493"], ["updated_at", "2017-07-14 12:33:05.548493"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "requests" ("status", "start_date", "end_date", "employee_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["status", 0], ["start_date", "2017-11-10"], ["end_date", "2017-11-12"], ["employee_id", 15], ["created_at", "2017-07-14 12:33:05.558597"], ["updated_at", "2017-07-14 12:33:05.558597"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2017-07-14 14:33:31 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:VacationplannerController> at /home/mminski/projects/vp/worksample_mminski/app/controllers/vacationplanner_controller.rb:3)
+Processing by VacationplannerController#index as HTML
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/employees/sign_in" for 127.0.0.1 at 2017-07-14 14:33:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/devise-4.3.0/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 10769ms (Views: 10745.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/employees/sign_in" for 127.0.0.1 at 2017-07-14 14:33:55 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EP2HTOL+ZZFysXg6vvMQpQfT4gOA1TOqLeb2qSOlGw4C1q5EBvFtcWw1L6L9142jWBrcChg2lPnD2AC9UABrtQ==", "employee"=>{"email"=>"supervisor@vacationplaner0.de", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" WHERE "employees"."email" = ? ORDER BY "employees"."id" ASC LIMIT ?[0m  [["email", "supervisor@vacationplaner0.de"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[33mUPDATE "employees" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "employees"."id" = ?[0m  [["current_sign_in_at", "2017-07-14 12:33:55.430613"], ["last_sign_in_at", "2017-07-14 12:33:55.430613"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2017-07-14 12:33:55.431865"], ["id", 1]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 163ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 14:33:55 +0200
+Processing by VacationplannerController#index as HTML
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  "employees".* FROM "employees" WHERE "employees"."id" = ? ORDER BY "employees"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 1]]
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."supervisor_id" = ?[0m  [["supervisor_id", 1]]
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 4]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 5]]
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 6]]
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 7]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 8]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 9]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 10]]
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 11]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 12]]
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 13]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 14]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 15]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 16]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 17]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 18]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 19]]
+  [1m[36mRequest Load (0.1ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 20]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 21]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 22]]
+  [1m[36mRequest Load (0.0ms)[0m  [1m[34mSELECT "requests".* FROM "requests" WHERE "requests"."employee_id" = ?[0m  [["employee_id", 23]]
+  Rendering vacationplanner/index.html.erb within layouts/hello_world
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."supervisor_id" IS NULL[0m
+  Rendered vacationplanner/index.html.erb within layouts/hello_world (369.2ms)
+Completed 200 OK in 511ms (Views: 458.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-23 18:39:20 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:VacationplannerController> at /home/mminski/projects/vp/worksample_mminski/app/controllers/vacationplanner_controller.rb:3)
+Processing by VacationplannerController#index as HTML
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/employees/sign_in" for 127.0.0.1 at 2017-07-23 18:39:20 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/mminski/.rvm/gems/ruby-2.3.3/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/devise-4.3.0/app/views/devise/shared/_links.html.erb (2.0ms)
+  Rendered /home/mminski/.rvm/gems/ruby-2.3.3/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 777ms (Views: 754.5ms | ActiveRecord: 0.7ms)
+
+

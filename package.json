@@ -1,0 +1,20 @@
+{
+  "name": "vacation_planner",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "moment-range": "^3.0.3",
+    "react": "^15.6.1",
+    "react-date-picker": "^5.3.28",
+    "react-datepicker": "^0.51.0",
+    "react-datetime": "^2.8.10",
+    "react-dom": "^15.6.1",
+    "react-input-calendar": "^0.4.1",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "simple-reactjs-datepicker": "^1.0.7"
+  },
+  "scripts": {
+    "postinstall": "cd client && yarn install"
+  }
+}

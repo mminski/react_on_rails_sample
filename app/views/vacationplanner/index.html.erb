@@ -1,0 +1,20 @@
+
+<div>
+  <div class='column'>
+    <h2> Vacation Planner </h2>
+    <%= link_to "Sign out", destroy_employee_session_path, :method => :delete, :class => "button warning float-right" %>
+  <% unless current_employee.supervisor_id? %> 
+  <%= react_component("SupervisorView", props: {employees: @employees, current_user: @current_user, supervisors: @supervisors, requests: @my_requests, my_employees: @my_employees, my_employees_requests: @my_employees_requests}, prerender: false) %>
+  <% else %>
+  <%= react_component("SubordinateView", props: {employees: @employees, current_user: @current_user, supervisors: @supervisors, requests: @my_requests}, prerender: false) %>
+<% end %>
+  </div>
+
+<script>
+$(function(){ $(document).foundation(); });
+$(function(){
+    $('#start_date').fdatepicker({
+          closeButton: true
+              });
+});
+</script>
